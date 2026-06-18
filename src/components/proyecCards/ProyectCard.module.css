@@ -1,6 +1,6 @@
 .contenedorProyectCard {
   padding: 3rem 2rem;
-  max-width: 1200px; /* Un poco más de margen general para proyectos anchos */
+  max-width: 1200px;
   margin: 0 auto;
   font-family: sans-serif;
 }
@@ -28,13 +28,7 @@
   margin: 0;
 }
 
-.titulo-secundario {
-  font-size: 2rem;
-  color: #1a1a1a;
-  margin: 0;
-}
-
-/* --- SECCIÓN PROYECTOS (Cards un poco más anchas) --- */
+/* --- SECCIÓN PROYECTOS --- */
 .contenedorProyectos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -50,8 +44,8 @@
   border: 1px solid #eef2f6;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 280px; 
+  justify-content: space-between; /* Empuja el footerCard abajo */
+  min-height: 340px; /* Un poquito más de alto para acomodar la nota cómodamente */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -61,33 +55,40 @@
   border-color: #007acc;
 }
 
-.cardProyecto h3 {
+/* Contenedor superior (Título + Descripción) */
+.infoProyecto h3 {
   font-size: 1.2rem;
   color: #007acc;
   margin: 0 0 0.8rem 0;
 }
 
-.cardProyecto p {
+.infoProyecto p {
   font-size: 0.95rem;
   color: #555555;
   line-height: 1.6;
   margin: 0 0 1.5rem 0; 
 }
 
-/* Centrado del botón dentro del contenedor */
+/* Contenedor inferior (Enlaces + Nota) */
+.footerCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
 .contenedor-enlace {
   display: flex;
   gap: 1rem; 
   justify-content: space-between;
   width: 100%;
-  margin-top: auto;
 }
 
 .enlace-proyecto {
-flex: 1; 
+  flex: 1; 
   text-align: center; 
   display: inline-block;
-  padding:0.6rem 0.5rem; 
+  padding: 0.6rem 0.5rem; 
   background-color: #007acc;
   color: #ffffff;
   font-weight: bold;
@@ -100,4 +101,20 @@ flex: 1;
 
 .enlace-proyecto:hover {
   background-color: #005999;
+}
+
+/* --- ESTILO PARA LA NOTA DE RENDER --- */
+.cardProyecto .notaRender {
+  font-size: 0.8rem;
+  color: #666666;
+  line-height: 1.4;
+  margin: 0; /* Reseteamos el margen general de los párrafos */
+  background-color: #f8f9fa;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border-left: 3px solid #007acc;
+}
+
+.notaRender strong {
+  color: #007acc;
 }
