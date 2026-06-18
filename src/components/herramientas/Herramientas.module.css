@@ -1,0 +1,61 @@
+/* --- SECCIÓN MIS HERRAMIENTAS (Cards chicas y centradas) --- */
+.contenedorHerramientas {
+  padding: 2rem 1rem; /* Un pequeño colchón para que no pegue a los bordes */
+}
+
+.contenedorCardsHerramientas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las tarjetas si sobran en la fila */
+  gap: 1rem;
+  max-width: 800px; /* Limita el ancho del bloque para mantenerlas agrupadas */
+  margin: 0 auto;
+}
+
+/* Cambiado a camelCase */
+.contenedorTituloPrincipal {
+  margin-bottom: 2.5rem;
+  text-align: center; /* Asegura que el título también se centre */
+}
+
+.contenedorTituloSecundario {
+  margin: 4rem 0 2.5rem 0;
+}
+
+/* Cambiado a camelCase */
+.tituloPrincipal {
+  font-size: 2.4rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.tituloSecundario {
+  font-size: 2rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.cardHerramienta {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 120px;
+  height: 60px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border: 1px solid #eef2f6;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.cardHerramienta:hover {
+  transform: scale(1.05);
+  border-color: #007acc;
+}
+
+.cardHerramienta h3 {
+  font-size: 0.95rem;
+  color: #333333;
+  margin: 0;
+  text-align: center;
+}

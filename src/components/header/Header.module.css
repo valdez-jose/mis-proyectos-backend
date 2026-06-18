@@ -1,0 +1,12 @@
+.header{
+  height:300px;
+
+  background-image:url(
+    "https://edteam-media.s3.amazonaws.com/blogs/original/a04ca961-f61d-4dc3-837c-55c06df42ce7.png"
+  );
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+
