@@ -19,7 +19,7 @@ const Navbar = () => {
       >
         <li>
           <a
-            href="https://tu-link-sobre-mi.vercel.app"
+            href="https://sobre-mi-mu.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -29,16 +29,12 @@ const Navbar = () => {
 
         <li>
           <a
-            href="https://tu-link-portafolio.vercel.app"
+            href="https://nuevo-portafolio-angular.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
           >
             Mi Portafolio
           </a>
-        </li>
-
-        <li>
-          <a href="#">Próximamente</a>
         </li>
       </ul>
 
