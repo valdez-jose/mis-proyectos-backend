@@ -13,8 +13,8 @@ const ProyectCard = () => {
         <div className={styles.cardProyecto}>
           <h3>Proyecto: Animales Silvestre</h3>
           <p>
-            Desarrollé Turismo en San Luis, una plataforma web interactiva construida con React, 
-            TypeScript y React Router. 
+            Catálogo digital interactivo y API REST para registrar, monitorear y 
+            conservar información clave sobre especies de nuestra fauna silvestre.
           </p>
           <div className={styles["contenedor-enlace"]}>
             <a href="https://github.com/valdez-jose/fastapi-rest-animales-silvestre" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
@@ -30,9 +30,8 @@ const ProyectCard = () => {
         <div className={styles.cardProyecto}>
           <h3>Proyecto: Plantas Silvestres</h3>
           <p>
-            Vivero El Paso es una aplicación web moderna desarrollada con React y TypeScript,
-             diseñada para la visualización, filtrado y gestión de un catálogo digital de plantas
-              y productos de jardinería. 
+           Una enciclopedia verde interactiva. Ideal para amantes de la naturaleza que quieren registrar plantas silvestres, 
+           aprender sobre el medio ambiente y cuidar la vegetación local.
           </p>
           <div className={styles["contenedor-enlace"]}>
             <a href="https://github.com/valdez-jose/fastapi-apirest-plantas-silvestre" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
@@ -49,7 +48,8 @@ const ProyectCard = () => {
         <div className={styles.cardProyecto}>
           <h3>Proyecto: Lista de Compras</h3>
           <p>
-            Desarrollé Bicicletería, una solución web para la gestión de productos y servicios de ciclismo utilizando Angular. Implementé una estructura modular con rutas hijas, consumo de servicios para el manejo de datos y formularios reactivos, garantizando una experiencia de usuario fluida y un código altamente mantenible.
+            API REST para el control de gastos en el supermercado. Permite gestionar listas de compras, calcular el total de los productos y
+             ayudarte a mantenerte dentro de tu presupuesto antes de llegar a la caja.
           </p>
           <div className={styles["contenedor-enlace"]}>
             <a href="https://github.com/valdez-jose/express-ts-lista-compra-api" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
