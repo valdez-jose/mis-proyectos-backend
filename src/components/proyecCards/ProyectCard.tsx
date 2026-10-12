@@ -15,8 +15,8 @@ const ProyectCard = () => {
           <div className={styles.infoProyecto}>
             <h3>Proyecto: Animales Silvestres</h3>
             <p>
-              Catálogo digital interactivo y API REST para registrar, monitorear y 
-              conservar información clave sobre especies de nuestra fauna silvestre.
+              API REST desarrollada con FastAPI y Python como servicio de datos para catálogos de fauna silvestre. Ofrece endpoints listos para consumir desde React o Angular, 
+              facilitando la consulta interactiva de especies animales y su información de conservación.
             </p>
           </div>
           
@@ -40,8 +40,9 @@ const ProyectCard = () => {
           <div className={styles.infoProyecto}>
             <h3>Proyecto: Plantas Silvestres</h3>
             <p>
-              Una enciclopedia verde interactiva. Ideal para amantes de la naturaleza que quieren registrar plantas silvestres, 
-              aprender sobre el medio ambiente y cuidar la vegetación local.
+             API REST desarrollada con FastAPI y Python como servicio de datos para catálogos de flora silvestre.
+              Ofrece endpoints listos para consumir desde React o Angular, facilitando la consulta interactiva de especies vegetales,
+              sus características y su estado de conservación.
             </p>
           </div>
 
@@ -60,22 +61,48 @@ const ProyectCard = () => {
           </div>
         </div>
 
-        {/* Proyecto: Lista de compras */}
+        {/* Proyecto: peluqueria caninas */}
         <div className={styles.cardProyecto}>
           <div className={styles.infoProyecto}>
-            <h3>Proyecto: Lista de Compras</h3>
+            <h3>Proyecto: Peluqueria caninas</h3>
             <p>
-              API REST para el control de gastos en el supermercado. Permite gestionar listas de compras, calcular el total de los productos y
-              ayudarte a mantenerte dentro de tu presupuesto antes de llegar a la caja.
+              API REST desarrollada con NestJS y Node.js para la gestión de servicios veterinarios y adopciones caninas. Permite administrar registros de mascotas, 
+              historiales médicos y control de refugios con una arquitectura escalable y estructurada.
             </p>
           </div>
 
           <div className={styles.footerCard}>
             <div className={styles["contenedor-enlace"]}>
-              <a href="https://github.com/valdez-jose/express-ts-lista-compra-api" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+              <a href="https://github.com/valdez-jose/api-rest-caninas" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
                 Ver en GitHub
               </a>
-              <a href="https://express-ts-lista-compra-api.onrender.com/" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+              <a href="https://api-rest-caninas.onrender.com" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+                Ver API(Swagger)
+              </a>
+            </div>
+            <p className={styles.notaRender}>
+              <strong>Nota:</strong> La API está alojada en Render. El primer acceso puede tardar unos segundos mientras el servidor se inicia.
+            </p>
+          </div>
+        </div>
+
+         {/* Proyecto: Vinoteca */}
+        <div className={styles.cardProyecto}>
+          <div className={styles.infoProyecto}>
+            <h3>Proyecto: Vinoteca</h3>
+            <p>
+              API REST desarrollada con FastAPI y Python para la gestión e inventario de productos de vinoteca.
+              Permite administrar la información de vinos, controlar el stock disponible y gestionar catálogos
+              con un rendimiento de alta velocidad y documentación interactiva.
+            </p>
+          </div>
+
+          <div className={styles.footerCard}>
+            <div className={styles["contenedor-enlace"]}>
+              <a href="https://github.com/valdez-jose/api-rest-caninas" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
+                Ver en GitHub
+              </a>
+              <a href="https://api-rest-caninas.onrender.com" target="_blank" rel="noreferrer" className={styles["enlace-proyecto"]}>
                 Ver API(Swagger)
               </a>
             </div>
